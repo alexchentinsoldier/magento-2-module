@@ -1,0 +1,31 @@
+{
+    "name": "alexchentinsoldier/magento-2-module",
+    "description": "Alex Chen test component",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "keywords":[
+        "Magento 2 sample module",
+        "Alex's same keywords",
+        "Magento 2 extension"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors":[
+        {
+            "name": "Alex Chen",
+            "email": "alex@tinsoldier.co.nz",
+            "role": "Web Developer"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Alexchentinsoldier\\Magento2Module\\": ""
+        }
+    }
+}
